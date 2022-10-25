@@ -386,6 +386,21 @@ section h1{
    
     
    }
+
+ .d {
+    
+    margin: 5px;
+}
+ 
+.d3{
+    width:90%;
+    
+    margin: 5px;
+    
+}
+   section{
+    min-height: fit-content;
+   }
    
    .linkdin {
     position: absolute;
@@ -562,19 +577,65 @@ section h1{
      
   }
 
+.d {
+    
+    margin: 5px;
+}
+ 
+.d3{
+    width:90%;
+    
+    margin: 5px;
+    
+}
+   section{
+    min-height: fit-content;
+   }
   .project-div p{
     font-size: 10px;
   }
-
+  
   .project-div>div{
     
     height: auto;
   
   
   }
+  .edubox{
+    
+    gap: 10px;
+    width: 90%;
+    
+  }
+
+  .ebox{
+   
+    font-size: 6px;
+    
+   }
+
+   .clink{
+    width:80%;
+    
+     
+    text-align: center;
+    font-size: 10px;
+    margin: auto;
+    
+ }
+ .clink a{
+     
+     font-size: 10px;
+     margin-top: 20px;
+ }
+ .text h3{
+  font-size: 16px;
+}
 }
 
- .bh3{
+
+
+.bh3{
      color: #1976d2;
      font-weight: bold;
  }
