@@ -1,72 +1,106 @@
-
-.gitbag{
-    width: 80%;
-    margin: auto;
-   
+.gitbag {
+  width: 80%;
+  margin: auto;
 }
 
-.gitbag img{
-    width: 100%;
+.gitbag img {
+  width: 100%;
 }
 
-
-.gtitle{
-    padding:  10px;
-    background-color: tomato;
-    width: fit-content;
-    margin: auto;
-    height: fit-content;
-    border-radius: 10px;
-    color:white;
-    font-weight: bold;
-    margin-top: 20px;
-    text-transform: uppercase;
-
+.gtitle {
+  padding: 5px 10px;
+  color: #1976d2;
+  width: fit-content;
+  margin: auto;
+  height: fit-content;
+  border-radius: 5px;
+  border: 1px solid;
+  font-weight: 500;
+  margin-top: 60px;
+  text-transform: uppercase;
 }
 
-.gitstaus{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    width: 100%;
-    border: 1px solid;
-   justify-content: center;
-  
-   
+.gitstaus {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 30px;
+  width: 100%;
 
+  justify-content: center;
 }
 
-.gitstatus img{
-    border: 1px solid;
+.imgdiv {
+  width: 100%;
+  height: auto;
 }
 
+.imgdiv > img {
+  width: 100%;
+  height: 100%;
+}
 
- 
+.divtool {
+  display: flex;
 
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 70%;
+  margin: auto;
+  margin-top: 30px;
+}
+.divtool span {
+  height: fit-content;
+
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.divtool > span > img {
+  width: 100%;
+  height: 100px;
+  margin: auto;
+
+  border-radius: 15px;
+}
+
+.git_calender {
+  padding-top: 30px;
+}
 @media screen and (min-width: 200px) and (max-width: 490px) {
-    .git_calender .react-activity-calendar__count{
-        font-size: 10px;
-       }
-
-   .git_calender .react-activity-calendar__legend-colors{
+  .git_calender .react-activity-calendar__count {
     font-size: 10px;
-   /* width: 60%; */
-   }
-   .git_calender .react-activity-calendar__legend-colors >svg {
-    width: 50%;
-    height: 20%;
- }
+  }
 
- .gitstaus{
+  .git_calender .react-activity-calendar__legend-colors {
+    font-size: 8px;
+    
+  }
+  .git_calender .react-activity-calendar__legend-colors > svg {
+    width: 50%;
+    height: 30%;
+  }
+
+  .gitstaus {
     display: grid;
     width: 100%;
-     gap: 15px;
+    gap: 15px;
+    justify-content: center;
+  }
 
-    justify-content:  center;
-   
+  .divtool {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+  }
 
-}
 
- 
+  .git_calender {
+    padding-top: 10px;
+  }
 }

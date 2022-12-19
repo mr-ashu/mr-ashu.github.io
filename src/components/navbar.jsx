@@ -43,17 +43,20 @@ function Navbar(props) {
   };
 
   const drawer = (
+  
+
+   
     <Box
       onClick={handleDrawerToggle}
-      sx={{ textAlign: "center", background: "" }}
+      sx={{ textAlign: "center",   }}
       id="draw"
     >
-      <Typography variant="h6" sx={{ my: 2 }}>
+      <Typography variant="h6" sx={{ my: 2  }}>
         Ashutosh Sharma
       </Typography>
       <Divider />
 
-      <List>
+      <div>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
             <ListItemButton sx={{ textAlign: "center" }}>
@@ -61,8 +64,10 @@ function Navbar(props) {
             </ListItemButton>
           </ListItem>
         ))}
-      </List>
+      </div>
     </Box>
+
+    
   );
 
   const container =
@@ -111,6 +116,7 @@ function Navbar(props) {
             "& .MuiDrawer-paper": {
               boxSizing: "border-box",
               width: drawerWidth,
+           
             },
           }}
         >

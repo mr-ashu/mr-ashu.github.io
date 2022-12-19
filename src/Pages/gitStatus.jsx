@@ -19,17 +19,19 @@ function GitCalender() {
         <div className="gtitle">Git Hub Stats</div>
         <div className="gitstaus">
         
-          <div>
+          <div className="imgdiv">
           <img
              
              src="https://github-readme-stats.vercel.app/api?username=mr-ashu&show_icons=true&locale=en"
              alt="mr-ashu"
            />
          
-          </div>
+          </div >
           
-           <div>
+           <div className="imgdiv">
            <img
+              
+
               src="https://github-readme-streak-stats.herokuapp.com/?user=h-unique245"
               alt="mr-ashu"
             />

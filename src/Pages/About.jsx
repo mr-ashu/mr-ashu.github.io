@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 export const About = () => {
   return (
     <>
-    <Fade bottom>
+    <Fade left>
       <section id="about">
         <h1>About</h1>
         <div className="abag">

@@ -16,7 +16,7 @@ import "../components/navbar.css";
 export const Home = () => {
   return (
     <div>
-      <Fade > 
+      <Fade top > 
       <section id="home">
         <div className="profile">
           <div className="nleft">

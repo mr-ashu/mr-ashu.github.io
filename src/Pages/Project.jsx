@@ -10,6 +10,7 @@ export const Project = () => {
             <div className="project-box">
               <Projectelement/>
             </div>
+              
           </section>
 
       </Fade>

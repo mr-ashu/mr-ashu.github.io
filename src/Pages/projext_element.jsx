@@ -2,17 +2,32 @@ import React from 'react'
 import "../components/navbar.css"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
- 
+
 export const Projectelement = () => {
   return (
     <div className='project-div'> 
 
-      
+<div className="timg">
+           
+           <img     src="https://miro.medium.com/max/608/1*83ea0-gKieSinthdD9vjFg.jpeg" alt="" />
+              <h4><span>TROUPER</span></h4>
+             <p>Trouper, the world's largest marketplace for digital services offers both buyers and sellers a digitally streamlined transactional platform.</p>
+             <h4><span>Tools :</span> Javascript | CSS | HTML | React</h4>
+           
+           <div className='gridbtn'>
+                <button>
+                <a href="https://jazzy-lokum-73584a.netlify.app/"><ArrowOutwardIcon/></a>
+                </button>
+                <button>
+                <a href="https://github.com/mr-ashu/nutty-form-5506"><GitHubIcon/></a>
+                </button>
+            </div>
+      </div>
       <div>
            
            <img src="data:image/png;base64,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" alt="" />
               <h4><span>BEWAKOOF</span></h4>
-             <p>Bewakoof is an Online Shopping site for Men and Women Clothing.</p>
+             <p>Bewakoof is an Online Shopping site for Men and Women's Clothing. This is a group project and we build this in just four days with five teammates.</p>
              <h4><span>Tools :</span> Javascript | CSS | HTML | React</h4>
            
            <div className='gridbtn'>
@@ -49,7 +64,7 @@ export const Projectelement = () => {
             <a href=""><ArrowOutwardIcon/></a>
           </button>
           <button>
-         <a href="https://github.com/mr-ashu/NordStrom/tree/main/Project%20Unit-3"><GitHubIcon/></a>
+         <a href="https://github.com/mr-ashu/NordStrom"><GitHubIcon/></a>
          </button>
             </div>
       </div>

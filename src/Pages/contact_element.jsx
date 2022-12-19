@@ -18,7 +18,8 @@ export default function Contactelement() {
           <input className="ibtn" type="submit"/>
         
       </form>
-     
+         
+         
       <img src="https://abhishekdewanganportfolio.netlify.app/static/media/contactsBlue.08a9dafd.svg" alt="" />
     
     </Box>
