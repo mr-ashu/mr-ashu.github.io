@@ -1,7 +1,6 @@
  
 #body-part{
      width: 100%;
- 
   
     font-family: var(--primaryFont);
 }
@@ -9,44 +8,100 @@ section{
    
     align-items: center;
     width:100% ;
-    min-height: 800px;
+    height: fit-content;
     padding-top: 80px;
     text-align: center;
-    
  
+}
+.icone{
+  position: absolute;
+  
+  right: 0;
+  margin-right: 50px;
+ 
+  color: #1976d2;
 
 }
-
-#skill>.linediv{
+.icone a{
+  color: #1976d2;
+ 
+  margin-left: 10px;
   
- 
- 
-   margin-top: 100px;
-
   
 }
+.intro{
+  color: gray;
+  width: 80%;
+  font-size: 22px;
+  margin: auto;
+  margin-top: 15px;
+  font-family: Courier, monospace;
+}
+ 
+ 
+.highlight_text{
+  font-size: 30px;
+  font-weight: bold;
+}
+ 
+.primary_text{
+  color:tomato;
+  font-weight: bold;
+  font-size: 30px;
+}
+.tt{
+  font-size: 24px;
+  color:grey;
+  font-family: Courier, monospace;
+}
+.video-bag{
+    position: fixed;
+    top: 0;
+    left:0;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -1;
+
+ 
+}
+
+.section-part{
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+ 
  
 section h1{
     color: #1976d2;
     text-transform: uppercase;
     font-size: 30px;
 }
-
+ 
 .profile{
     display: flex;
+    padding-top: 0px;
   
     justify-content: space-evenly;
-   align-items: center;
-   padding-top: 70px;
-   margin: auto;
+     align-items: center;
+    width: 90%;
+ 
+     margin: auto;
+
     
    }
    
   .profile img{
-      width: 270px;
-      height: 270px;
-      border-radius: 100%;
-      border: 3px solid #1976d2;
+      width: 400px;
+      height:450px ;
+      border-radius: 20%;
+    
+     
 
   }
 .profile button{
@@ -61,7 +116,7 @@ section h1{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
 .linkdin{
-    align-self: flex-start;
+    align-self: left;
  
     width: fit-content;
     margin-left: 20px;
@@ -82,15 +137,23 @@ section h1{
   .nleft{
     align-items: center;
     text-align: center;
+    width: 50%;
+    margin: auto;
+    
   }
   .nright{
     text-align: center;
     font-size: 25px;
-  }
+    width: 50%;
+    margin: auto;
+    
+      }
   
   a{
     text-decoration: none;
-    color: white;
+    color:white;
+    font-size: 18px;
+  
   }
   #about>h1{
     align-self: flex-end;
@@ -127,16 +190,18 @@ section h1{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 90%;
+    margin: auto;
   }
   .edubox{
     display: grid;
  
     grid-template-columns: repeat(1,1fr);
     gap: 30px;
-    width: 40%;
+    width: 80%;
     margin: auto;
-   
-   
+    
+   padding: 20px;
     
   }
   .edubox>div{
@@ -155,24 +220,28 @@ section h1{
     color: #1976d2;
   }
   .edubox img{
-       width: 80px;
-       height: 80px;
+       width: 90px;
+       height: 90px;
        border-radius: 100%;
       
   }
   .ebox{
       margin-left: 20px;
-      font-size: 10px;
+      font-size: 15px;
+      font-weight:lighter;
       
+  }
+  .ebox h2{
+    font-weight: 500;
   }
 
   .eimg{
-    width: 30%;
-    height: 350px;
+    width: 50%;
+    height: 400px;
     margin: auto;
     
   }
-
+ 
 .linediv{
    
     
@@ -181,11 +250,15 @@ section h1{
     
     display: flex;
     justify-content: space-between;
-    height: 190px;
+    height: auto;
     align-items:flex-end;
+    margin-top: 60px;
   
 
 
+}
+#contact>.linediv{
+  margin-top: 0px;
 }
 .d {
     width: 5px;
@@ -211,60 +284,77 @@ section h1{
 }
  .cbag{
     display: flex;
-    width: 100%;
+    width: 90%;
     justify-content: space-evenly;
+    margin: auto;
+ }
+ 
+ form{
+     width: 60%;
+    margin: auto;
+   
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
     
  }
- form{
-     width: 40%;
-    margin: auto;
-    text-align: left;
-    
-
+ .footericone{
+  
+   width: 100%; 
+   
+  color: #1976d2;
+ 
+ margin-top: 100px;
+  
+ }
+ .footericone a{
+  color: #1976d2;
+  margin: 10px;
  }
 
  input{
     width: 90%;
-    height: 50px;
+    height: 40px;
     
     margin-top: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 18px;
     border: none;
     padding-left:20px ;
     border: 1px solid #1976d2;
+    background-color: transparent;
  }
  .mbox{
-    height: 120px;
+  width: 90%;
+  height: 130px;
+  
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+  padding-left:20px ;
+  border: 1px solid #1976d2;
+  background-color: transparent;
+
  }
  .ibtn{
     
     height: fit-content;
-    width: fit-content;
+  
     background-color: #1976d2;
     color: white;
     font-size: 20px;
     padding: 10px 20px;
     display: block;
- }
- .clink{
-    width: fit-content;
-    
-    color: #1976d2;
-    text-align: left;
-    font-size: 20px;
     margin: auto;
-    
+    width: 94%;
+    margin-top: 20px;
  }
- .clink a{
-     color: #1976d2;
-     display: block;
-     font-size: 20px;
-     margin-top: 30px;
- }
+ 
  .cbag img{
-    height: 100%;
-    width:20% ;
+    height: 400px;
+    width:40% ;
     
     margin: auto;
    
@@ -313,9 +403,19 @@ section h1{
   border-radius: 10px;
   text-align: center;
   align-items: center;
-  height: 320px;
+ 
 
 
+}
+.project-div>div p{
+  width: 90%;
+  height: 130px;
+  font-size: 14px;
+  text-align: justify;
+}
+.project-div h4{
+  height: 20px;
+ 
 }
 
 .project-div img{
@@ -361,23 +461,113 @@ section h1{
 
 
 /* -------------------------------------------- */
+ 
+ 
+
 @media (max-width: 950px) {
+  .tt{
+    font-size: 18px;
+    
+  }
+  .primary_text{
+    font-size: 20px;
+  }
+  .highlight_text{
+    font-size: 20px;
+  }
+  .intro{
+   
+    font-size: 15px;
+    line-height: 20px;
+    width: 90%;
+    
+    
+  }
+
   .project-div{
     
     grid-template-columns: repeat(3,1fr);
-     
+     width: 90%;
   }
 
   .project-div>div{
     
-    height: 300px;
+    height: auto
   
   
   }
+  a{
+   
+    font-size: 17px;
+   
+  }
+  .project-div>div p{
+    height: 70px;
+    width: 95%;
+    font-size: 10px;
+  }
+  .profile{
+    width: 80%;
+  }
+  .profile img{
+    width: 250px;
+    height:300px ;
+    border-radius: 20%;
+   
+    
+
+}
+.eimg{
+  display: none;
+}
+
+.edubox{
+   
+  gap: 30px;
+  width: 90%;
+   
+}
+ 
+ 
+
+.cntct{
+  width: 100%;
+
+  margin: auto;
+}
+.cntct div{
+  margin-left: 20px;
+}
+.cntct img{
+  display: none;
+}
   
 }
 
 @media (max-width: 768px) {
+  .icone{
+    position: absolute;
+    display: grid;
+    width: fit-content;
+    gap:5px;
+    top:40%;
+    left: 0;
+    margin-left: 20px;
+ 
+ 
+
+    
+  }
+  .icone a{
+    color: #1976d2;
+    font-size: large;
+   
+  }
+  .intro{
+   
+    font-size: 12px;
+    width: 80%;
+  }
   .profile{
     display: grid;
    padding-top: 0;
@@ -385,6 +575,10 @@ section h1{
    padding-top: 20px;
    
     
+   }
+   #home{
+    height: fit-content;
+ 
    }
 
  .d {
@@ -479,7 +673,9 @@ section h1{
 .cbag{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    width: 100%;
+    width: 90%;
+    margin: auto;
+   
 }
 
 .cbag img{
@@ -488,28 +684,31 @@ section h1{
 
  }
   form{
-    text-align: left;
+    
     width: 70%;
+    
   }
  input{
-     width: 100%;
+   
     height: 30px;
     margin-top: 15px;
-    border-radius: 7px;
+    border-radius: 4px;
     font-size: 15px;
     border: none;
+    width: 91%;
     padding-left:10px ;
     border: 1px solid #1976d2;
  }
  .mbox{
     height: 70px;
+    width: 92%;
+    margin-top: 15px;
+    border: 1px solid #1976d2;
  }
  .ibtn{
-    
      
-   height: fit-content;
     font-size: 15px;
-    width:fit-content;
+   
     padding: 7px 12px;
      
  }
@@ -519,10 +718,11 @@ section h1{
     width: 70%;
      gap: 7px;
     font-size: 13px;
-    margin-top: 40px;
+ 
     align-items: center;
     text-align: justify;
-   
+   margin: auto;
+   border: 1px solid;
     
  
     
@@ -557,24 +757,69 @@ section h1{
     .project-div{
     
       grid-template-columns: repeat(2,1fr);
-       
+       padding: 5px;
+       width: 80%;
     }
-    .project-div>div{
     
-      height: 320px;
+
+    .nleft{
     
-    
+      width: 100%;
+      margin: auto;
+      
     }
+    .nright{
+      
+      width: 100%;
+      margin: auto;
+      margin-top: 20px;
+     
+    }
+
+    .profile img{
+      width: 250px;
+      height:300px ;
+      border-radius: 20%;
+   
+     
+
+  }
+  a{
+   
+    font-size: 14px;
+  }
 
 }
 
 @media (max-width: 490px){
+  .tt{
+    font-size: 16px;
+    
+  }
+  .primary_text{
+    font-size: 18px;
+  }
+  .highlight_text{
+    font-size: 18px;
+  }
+ 
   .project-div{
     
     grid-template-columns: repeat(1,1fr);
     width: 70%;
     
      
+  }
+  .nleft{
+  
+    width: 100%;
+    margin: auto;
+  }
+  .nright{
+  
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
   }
 
 .d {
@@ -607,16 +852,16 @@ section h1{
     width: 90%;
     
   }
-
+ 
+ 
   .ebox{
    
-    font-size: 6px;
+    font-size: 8px;
     
    }
 
    .clink{
     width:80%;
-    
      
     text-align: center;
     font-size: 10px;
@@ -631,11 +876,22 @@ section h1{
  .text h3{
   font-size: 16px;
 }
+
+.profile img{
+  width: 230px;
 }
 
 
+}
 
-.bh3{
-     color: #1976d2;
-     font-weight: bold;
- }
+
+@media (max-width: 400px) {
+  .profile img{
+    width: 200px;
+    height:250px ;
+    border-radius: 20%;
+  }
+    
+
+}
+ 

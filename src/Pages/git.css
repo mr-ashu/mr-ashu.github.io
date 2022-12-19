@@ -1,0 +1,72 @@
+
+.gitbag{
+    width: 80%;
+    margin: auto;
+   
+}
+
+.gitbag img{
+    width: 100%;
+}
+
+
+.gtitle{
+    padding:  10px;
+    background-color: tomato;
+    width: fit-content;
+    margin: auto;
+    height: fit-content;
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+}
+
+.gitstaus{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    border: 1px solid;
+   justify-content: center;
+  
+   
+
+}
+
+.gitstatus img{
+    border: 1px solid;
+}
+
+
+ 
+
+@media screen and (min-width: 200px) and (max-width: 490px) {
+    .git_calender .react-activity-calendar__count{
+        font-size: 10px;
+       }
+
+   .git_calender .react-activity-calendar__legend-colors{
+    font-size: 10px;
+   /* width: 60%; */
+   }
+   .git_calender .react-activity-calendar__legend-colors >svg {
+    width: 50%;
+    height: 20%;
+ }
+
+ .gitstaus{
+    display: grid;
+    width: 100%;
+     gap: 15px;
+
+    justify-content:  center;
+   
+
+}
+
+ 
+}
