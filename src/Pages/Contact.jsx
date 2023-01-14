@@ -22,6 +22,20 @@ export const Contact = () => {
              <h3>Email : <a style={{color:"black"}} href="mailto:ashutosh15th@gmail.com"> ashutosh15th@gmail.com</a></h3>
 
              <h3>Contact-me : <a style={{color:"black"}} href="mailto:ashutosh15th@gmail.com">+91 8825180626</a></h3>
+          <div style={{display:"flex",gap:"20px"}}>
+               
+                     <button className="linkdinid">
+            <a href="https://github.com/mr-ashu">
+              <GitHubIcon />
+            </a>
+          </button>
+          <button className="linkdinid">
+            <a href="https://www.linkedin.com/in/ashutosh-sharma-b960b023b">
+              {" "}
+              <LinkedInIcon />
+            </a>
+          </button>
+               </div>
          </div>
         <div className="footericone">
         <a href="tel:8825180626">
