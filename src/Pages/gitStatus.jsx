@@ -16,7 +16,7 @@ function GitCalender() {
   return (
     <div className="gitbag">
       
-        <div className="gtitle">Git Hub Stats</div>
+        <div className="gtitle2"><span>Git Hub Stats</span></div>
         <div className="gitstaus">
         
           <div className="imgdiv">

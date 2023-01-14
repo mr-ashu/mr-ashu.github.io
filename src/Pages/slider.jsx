@@ -9,35 +9,35 @@ export const Slider = () => {
                 <div className="slider-track">
                     
                         <div className="slide">
-                        <img src="https://abhishekdewanganportfolio.netlify.app/static/media/html.75bdf0b0.svg" alt="" />
+                        <img src="https://www.ujudebug.com/wp-content/uploads/2022/07/html-logo-transparent.png" alt="" />
                         <h3>HTML</h3>
                         </div>
                       <div className="slide">
-                        <img src="https://abhishekdewanganportfolio.netlify.app/static/media/javascript.f84ec710.svg" alt="" />
+                        <img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png" alt="" />
                         <h3>javascript</h3>
                     </div>
                         <div className="slide">
-                         <img src="https://abhishekdewanganportfolio.netlify.app/static/media/css.afb434f6.svg" alt="" />
+                         <img src="https://avatars.githubusercontent.com/css?size=460" alt="" />
                         <h3>CSS</h3>
                         </div>
                  <div className="slide">
-                       <img src="https://abhishekdewanganportfolio.netlify.app/static/media/react.c3a0b34a.svg" alt="4"/>
+                       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="4"/>
                        <h3>React</h3>
                     </div>
                 <div className="slide">
-                         <img src="https://abhishekdewanganportfolio.netlify.app/static/media/bootstrap.3b3ab2cf.svg" alt="5"/>
+                         <img src="https://download.logo.wine/logo/Bootstrap_(front-end_framework)/Bootstrap_(front-end_framework)-Logo.wine.png" alt="5"/>
                         <h3>Bootstrap</h3>
                  </div>
                  <div className="slide">
-                         <img src="https://abhishekdewanganportfolio.netlify.app/static/media/mongoDB.4428e2ce.svg" alt="6"/>
+                         <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png" alt="6"/>
                          <h3>MongoDB</h3>
                  </div>
                         <div className="slide">
-                        <img src="https://abhishekdewanganportfolio.netlify.app/static/media/nodejs.adf3246d.svg" alt="7"/>
+                        <img src="https://www.peopledatalabs.com/_next/image?url=%2Fimages%2Flanguages%2Fjavascript.png&w=3840&q=75" alt="7"/>
                       <h3>nodejs</h3>
                         </div>
                         <div className="slide">
-                            <img src="https://blog.amt.in/wp-content/uploads/2017/12/e16da876-c2fd-4eb8-ae72-4b193c534938-Edited.png" alt="8"/>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="8"/>
                          
                             <h3>ExpressJS</h3>
                        
@@ -45,35 +45,35 @@ export const Slider = () => {
                       
                         {/* <!-- -------double --> */}
                         <div className="slide">
-                            <img src="https://abhishekdewanganportfolio.netlify.app/static/media/html.75bdf0b0.svg" alt="1"/>
+                            <img src="https://www.ujudebug.com/wp-content/uploads/2022/07/html-logo-transparent.png" alt="1"/>
                             <h3>HTML</h3>
                             </div>
                           <div className="slide">
-                            <img src="https://abhishekdewanganportfolio.netlify.app/static/media/javascript.f84ec710.svg" alt="2"/>
+                            <img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png" alt="2"/>
                             <h3>javascript</h3>
                         </div>
                           <div className="slide">
-                            <img src="https://abhishekdewanganportfolio.netlify.app/static/media/css.afb434f6.svg" alt="3"/>
+                            <img src="https://avatars.githubusercontent.com/css?size=460" alt="3"/>
                             <h3>CSS</h3>
                         </div>
                             <div className="slide">
-                           <img src="https://abhishekdewanganportfolio.netlify.app/static/media/react.c3a0b34a.svg" alt="4"/>
+                           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="4"/>
                            <h3>React</h3>
                         </div>
                             <div className="slide">
-                             <img src="https://abhishekdewanganportfolio.netlify.app/static/media/bootstrap.3b3ab2cf.svg" alt="5"/>
+                             <img src="https://download.logo.wine/logo/Bootstrap_(front-end_framework)/Bootstrap_(front-end_framework)-Logo.wine.png" alt="5"/>
                             <h3>Bootstrap</h3>
                             </div>
                             <div className="slide">
-                             <img src="https://abhishekdewanganportfolio.netlify.app/static/media/mongoDB.4428e2ce.svg" alt="6"/>
+                             <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png" alt="6"/>
                              <h3>MongoDB</h3>
                             </div>
                             <div className="slide">
-                            <img src="https://abhishekdewanganportfolio.netlify.app/static/media/nodejs.adf3246d.svg" alt="7"/>
+                            <img src="https://www.peopledatalabs.com/_next/image?url=%2Fimages%2Flanguages%2Fjavascript.png&w=3840&q=75" alt="7"/>
                           <h3>nodejs</h3>
                         </div>
                             <div className="slide">
-                                <img src="https://blog.amt.in/wp-content/uploads/2017/12/e16da876-c2fd-4eb8-ae72-4b193c534938-Edited.png" alt="8"/>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="8"/>
                              
                                 <h3>ExpressJS</h3>
                            

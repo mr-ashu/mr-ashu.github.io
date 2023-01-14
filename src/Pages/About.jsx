@@ -1,6 +1,7 @@
 import React from "react";
-import "../components/navbar.css";
+import "../components/Navbar.css"
 import Fade from "react-reveal/Fade";
+import { I2 } from "./i2";
 export const About = () => {
   return (
     <>
@@ -8,11 +9,10 @@ export const About = () => {
       <section id="about">
         <h1>About</h1>
         <div className="abag">
-          <img
-            className="aimg"
-            src="https://abhishekdewanganportfolio.netlify.app/static/media/blueTheme-boy.b2f186cb.svg"
-            alt=""
-          />
+        
+        <div className="aimg">
+        <I2/>
+        </div>
           <div className="text">
             <h3>
               Motivated and innovative aspiring full-stack web developer with

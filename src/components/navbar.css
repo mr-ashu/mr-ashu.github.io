@@ -1,905 +1,874 @@
- 
-#body-part{
-     width: 100%;
-  
-    font-family: var(--primaryFont);
-}
-section{
-   
-    align-items: center;
-    width:100% ;
-    height: fit-content;
-    padding-top: 80px;
-    text-align: center;
- 
-}
-.icone{
-  position: absolute;
-  
-  right: 0;
-  margin-right: 50px;
- 
-  color: #1976d2;
-
-}
-.icone a{
-  color: #1976d2;
- 
-  margin-left: 10px;
-  
-  
-}
-.intro{
-  color: gray;
-  width: 80%;
-  font-size: 22px;
-  margin: auto;
-  margin-top: 15px;
-  font-family: Courier, monospace;
-}
- 
- 
-.highlight_text{
-  font-size: 30px;
-  font-weight: bold;
-}
- 
-.primary_text{
-  color:tomato;
-  font-weight: bold;
-  font-size: 30px;
-}
-.tt{
-  font-size: 24px;
-  color:grey;
-  font-family: Courier, monospace;
-}
-.video-bag{
-    position: fixed;
-    top: 0;
-    left:0;
-   min-width: 100%;
-   min-height: 100%;
-   width: auto;
-   height: auto;
-   z-index: -1;
-
- 
-}
-
-.section-part{
-  position: absolute;
-  z-index: 100;
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-
- 
- 
-section h1{
-    color: #1976d2;
+.spart{
+    position:fixed;
+    width: 100%;
+    left: 0;
+    top:0;
+    z-index: 500;
     text-transform: uppercase;
-    font-size: 30px;
-}
- 
-.profile{
-    display: flex;
-    padding-top: 0px;
-  
-    justify-content: space-evenly;
-     align-items: center;
-    width: 90%;
- 
-     margin: auto;
-
-    
-   }
-   
-  .profile img{
-      width: 400px;
-      height:450px ;
-      border-radius: 20%;
-    
-     
-
-  }
-.profile button{
-    background: #1976d2;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    margin: 10px;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 15px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-}
-.linkdin{
-    align-self: left;
- 
-    width: fit-content;
-    margin-left: 20px;
-    
-}
-.linkdin button{
-    display: block;
-    background: #1976d2;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    margin: 10px;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 15px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-}
-  .nleft{
-    align-items: center;
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    
-  }
-  .nright{
-    text-align: center;
-    font-size: 25px;
-    width: 50%;
-    margin: auto;
-    
-      }
-  
-  a{
-    text-decoration: none;
-    color:white;
-    font-size: 18px;
-  
-  }
-  #about>h1{
-    align-self: flex-end;
-  }
-  .abag{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-   
-   
-  }
-  .aimg{
-    height:400px;
-    width: 40%;
-  }
-  .text{
-  
-    text-align: justify;
-    width: 40%;
-    
-    padding: 10px;
-    border-radius: 10px;
-    height: fit-content;
-    border: 1px solid #1976d2;
-    
-   
-  }
-  .text h3{
-    font-size: 25px;
-    font-family: Courier, monospace;
-    
-  }
-  .ebag{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-  }
-  .edubox{
-    display: grid;
- 
-    grid-template-columns: repeat(1,1fr);
-    gap: 30px;
-    width: 80%;
-    margin: auto;
-    
-   padding: 20px;
-    
-  }
-
-
-  .edubox>div{
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-    display: flex;
-    text-align: left;
-    width: 90%;
-    padding: 7px;
-    border-radius: 10px;
-    align-items: center;
-  
-    margin: auto;
-  
-  }
-  span{
-    color: #1976d2;
-  }
-  .edubox img{
-       width: 90px;
-       height: 90px;
-       border-radius: 100%;
-      
-  }
-  .ebox{
-      margin-left: 20px;
-      font-size: 15px;
-      font-weight:lighter;
-      
-  }
-  .ebox h2{
+    font-size: 20px;
     font-weight: 500;
-  }
-
-  .eimg{
-    width: 50%;
-    height: 400px;
-    margin: auto;
-    
-  }
- 
-.linediv{
-   
-    
-    width: 90%;
-    margin: auto;
-    
-    display: flex;
-    justify-content: space-between;
-    height: auto;
-    align-items:flex-end;
-    margin-top: 60px;
-  
-
-
-}
-#contact>.linediv{
-  margin-top: 0px;
-}
-.d {
-    width: 5px;
-    height: 5px;
-    background-color: #1976d2;
-    border-radius: 100%;
-    margin: 10px;
-}
- 
-.d3{
-    width:95%;
-    height: 3px;
-    background-color: #1976d2;
-    border-radius: 10px;
-    margin: 10px;
-    
-}
-#draw{
-    color: #1976d2;
-}
-#draw a{
-    color: #1976d2;
-}
- .cbag{
-    display: flex;
-    width: 90%;
-    justify-content: space-evenly;
-    margin: auto;
- }
- 
- form{
-     width: 60%;
-    margin: auto;
-   
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    padding: 10px;
-    border-radius: 5px;
-    align-items: center;
-    
- }
- .footericone{
-  
-   width: 100%; 
-   
-  color: #1976d2;
- 
- margin-top: 100px;
-  
- }
- .footericone a{
-  color: #1976d2;
-  margin: 10px;
- }
-
- input{
-    width: 90%;
-    height: 40px;
-    
-    margin-top: 20px;
-    border-radius: 5px;
-    font-size: 18px;
-    border: none;
-  
-    border: 1px solid #1976d2;
-    background-color: transparent;
- }
- .mbox{
-  width: 90%;
-  height: 130px;
-  
-  margin-top: 20px;
-  border-radius: 5px;
-  font-size: 18px;
-  border: none;
- 
-  border: 1px solid #1976d2;
-  background-color: transparent;
-
- }
- .ibtn{
-    
-    height: fit-content;
-  
-    background-color: #1976d2;
     color: white;
-    font-size: 20px;
-    padding: 10px 20px;
     
-    margin: auto;
-    width: auto;
-    margin-top: 20px;
- }
- 
- .cbag img{
-    height: 400px;
-    width:40% ;
-    
-    margin: auto;
-   
-
- }
- 
- #contact{
-   min-height:fit-content;
-   
- }
-
- .wave {
-    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-    animation-duration: 2.5s;        /* Change to speed up or slow down */
-    animation-iteration-count: infinite;  /* Never stop waving :) */
-    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
-    display: inline-block;
-    font-size: 50px;
-    
-   
-  }
-  @keyframes wave-animation {
-    0% { transform: rotate( 0.0deg) }
-   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-   20% { transform: rotate(-8.0deg) }
-   30% { transform: rotate(14.0deg) }
-   40% { transform: rotate(-4.0deg) }
-   50% { transform: rotate(10.0deg) }
-   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-  100% { transform: rotate( 0.0deg) }
-}
-
-.project-div{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-   gap:20px;
-   width: 80%;
-   margin: auto;
-   align-items: center;
-   text-align: center;
-}
-.project-div>div{
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-  
-  padding: 7px;
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
- 
-
-
-}
-.project-div>div p{
-  width: 90%;
-  height: 130px;
-  font-size: 14px;
-  text-align: justify;
-}
-.project-div h4{
-  height: 20px;
- 
-}
-
-.project-div img{
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-}
-.gridbtn{
-  display: block;
-  bottom: 0px;
-  width: fit-content;
-  margin: auto;
-  display: flex;
-  
-  align-self:baseline;
-  
- 
-}
-.project-div p{
-  font-size: 10px;
-  width: 80%;
-  margin: auto;
-  margin-top: 20px;
-}
-.project-div h4{
-  font-size: 12px;
-}
-
-
-.gridbtn button{
-  
-   display: block;
-  background: #1976d2;
-  color: white;
-  padding: 5px 8px;
-  border: none;
-  margin: 10px;
-  border-radius: 5px;
-  
-  font-size: 10px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-}
-
-
-/* -------------------------------------------- */
- 
- 
-
-@media (max-width: 950px) {
-  .tt{
-    font-size: 18px;
-    
-  }
-  .primary_text{
-    font-size: 20px;
-  }
-  .highlight_text{
-    font-size: 20px;
-  }
-  .intro{
-   
-    font-size: 15px;
-    line-height: 20px;
-    width: 90%;
-    
-    
-  }
-
-  .project-div{
-    
-    grid-template-columns: repeat(3,1fr);
-     width: 90%;
-  }
-
-  .project-div>div{
-    
-    height: auto
-  
   
   }
-  a{
-   
-    font-size: 17px;
-   
-  }
-  .project-div>div p{
-    height: 70px;
-    width: 95%;
-    font-size: 10px;
-  }
-  .profile{
-    width: 80%;
-  }
-  .profile img{
-    width: 250px;
-    height:300px ;
-    border-radius: 20%;
-   
+  #bodypart{
+       width: 100%;
     
-
-}
-.eimg{
-  display: none;
-}
-
-.edubox{
+      font-family: var(--primaryFont);
+  }
+  section{
+     
+      align-items: center;
+      width:100% ;
+      height: fit-content;
+      padding-top: 80px;
+      text-align: center;
    
-  gap: 30px;
-  width: 90%;
-   
-}
- 
- 
-
-.cntct{
-  width: 100%;
-
-  margin: auto;
-}
-.cntct div{
-  margin-left: 20px;
-}
-.cntct img{
-  display: none;
-}
-  
-}
-
-@media (max-width: 768px) {
+  }
+  #about {
+    padding-top: 100px;
+  }
+  #education {
+    padding-top: 100px;
+  }
+  #project {
+    padding-top: 100px;
+  }
+  #contact {
+    padding-top: 100px;
+  }
+  #skill{
+    padding-top: 100px;
+  }
   .icone{
     position: absolute;
-    display: grid;
-    width: fit-content;
-    gap:5px;
-    top:40%;
-    left: 0;
-    margin-left: 20px;
- 
- 
-
     
+    right: 0;
+    margin-right: 50px;
+    top:100;
+   
+    color: #1976d2;
+  
   }
   .icone a{
     color: #1976d2;
-    font-size: large;
    
+    margin-left: 10px;
+    
+    
   }
   .intro{
-   
-    font-size: 12px;
+    color: gray;
     width: 80%;
-  }
-  .profile{
-    display: grid;
-   padding-top: 0;
-   align-items: center;
-   padding-top: 20px;
-   
-    
-   }
-   #home{
-    height: fit-content;
- 
-   }
-
- .d {
-    
-    margin: 5px;
-}
- 
-.d3{
-    width:90%;
-    
-    margin: 5px;
-    
-}
-   section{
-    min-height: fit-content;
-   }
-   
-   .linkdin {
-    position: absolute;
-     top:70px;
-     display: flex;
-     justify-content: space-between;
-     width: 100%;
-     margin: auto;
-     
-     }
-     .nright{
-        margin-top: 20px;
-     }
-     .nright h2{
-        font-size: 18px;
-     }
-     .nright h1{
-         font-size: 20px;
-        
-     }
-       
-     .abag{
-        display: block;
-        align-items: center;
-        
-      }
-      .aimg{
-        height:200px;
-        width: 40%;
-      }
-      .text{
-      
-        text-align: justify;
-        width: 80%;
-        padding: 7px;
-        border-radius: 10px;
-        height: fit-content;
-        margin: auto;
-        margin-top: 10px;
-        
-       
-      }
-      .text h3{
-        font-size: 20px;
-      }
-
-      .edubox{
-        display: grid;
-     
-        grid-template-columns: repeat(1,1fr);
-        gap: 30px;
-        width: 80%;
-        margin: auto;
-       
-        
-      }
-      .eimg{
-        display: none;
-      }
-   
-      .edubox img{
-        width: 70px;
-        height: 70px;
-        border-radius: 100%;
-       
-   }
-   .ebox{
-       margin-left: 20px;
-       font: 10px sans-serif;
-   }
-
-   section h1{
-     
-    font-size: 25px;
-}
-.cbag{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    width: 90%;
+    font-size: 22px;
     margin: auto;
-   
-}
-
-.cbag img{
-     display: none;
-   
-
- }
-  form{
-    
-    width: 70%;
-    
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: Courier, monospace;
   }
- input{
    
-    height: 30px;
-    margin-top: 15px;
-    border-radius: 4px;
-    font-size: 15px;
+   
+  .highlight_text{
+    font-size: 30px;
+    font-weight: bold;
+  }
+   
+  .primary_text{
+    color:tomato;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .tt{
+    font-size: 24px;
+    color:grey;
+    font-weight: bold;
+    font-family: Courier, monospace;
+  }
+  .video-bag{
+      position: fixed;
+      top: 0;
+      left:0;
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: auto;
+     z-index: -1;
+  
+   
+  }
+  
+  .section-part{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
     border: none;
-    width: 91%;
-    padding-left:10px ;
-    border: 1px solid #1976d2;
- }
- .mbox{
-    height: 70px;
-    width: 92%;
-    margin-top: 15px;
-    border: 1px solid #1976d2;
- }
- .ibtn{
-     
-    font-size: 15px;
+  }
+  
    
-    padding: 7px 12px;
-     
- }
- .clink{
-     display: grid;
-     grid-template-columns: repeat(2,1fr);
-    width: 70%;
-     gap: 7px;
-    font-size: 13px;
- 
-    align-items: center;
-    text-align: justify;
-   margin: auto;
-   border: 1px solid;
-    
- 
-    
- }
- .clink a{
-     color: #1976d2;
-     
-     font-size: 13px;
-     margin-top: 20px;
- }
-
- .slide{
-    height: 130px;
-    width: 100px;
-
- }
- .slide img{
-    width: 70px;
-    height: 70px;
- }
-
- .slide h3{
    
-    font-size: 15px;
-    margin-top: 1rem;
+  section h1{
+      color: #1976d2;
+      text-transform: uppercase;
+      font-size: 30px;
+      font-weight: 500;
+      margin-bottom: 20px;
+  }
+   
+  .profile{
+      display: flex;
+     
+      justify-content: space-evenly;
+       align-items: center;
+      width: 90%;
+      padding-top: 22px;
+       margin: auto;
+      
+  
+      
+     }
+     
+    .profile img{
+        width: 400px;
+        height:450px ;
+        border-radius: 20%;
+        margin: auto;
+      
+       
+  
     }
-
-    section h1{
-        font-size: 20px;
-    }
-
-    .project-div{
-    
-      grid-template-columns: repeat(2,1fr);
-       padding: 5px;
-       width: 80%;
-    }
-    
-
+  .profile button{
+      background: #1976d2;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      margin: 10px;
+      
+      
+      font-weight: bold;
+      font-size: 15px;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  }
+  .linkdin{
+      align-self: left;
+   
+      width: fit-content;
+      margin-left: 20px;
+      
+      
+      
+  }
+  .linkdin button{
+      display: block;
+      background: #1976d2;
+      color: white;
+      
+      border: none;
+      margin: 10px;
+      
+      font-weight: bold;
+      font-size: 15px;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  }
     .nleft{
-    
-      width: 100%;
+      align-items: center;
+      text-align: center;
+      width: 50%;
       margin: auto;
       
     }
     .nright{
-      
-      width: 100%;
+      text-align: center;
+      font-size: 25px;
+      width: 50%;
       margin: auto;
-      margin-top: 20px;
+      
+        }
+    
+    a{
+      text-decoration: none;
+      color:white;
+      font-size: 18px;
+    
+    }
+    #about>h1{
+      align-self: flex-end;
+    }
+    .abag{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+     
      
     }
-
+   
+    .aimg{
+      height:auto;
+      width: 40%;
+      margin: auto;
+   
+    }
+    .i2{
+      width: 100%;
+      height: 100%;
+    }
+    .text{
+    
+      text-align: justify;
+      width: 50%;
+      margin: auto;
+      padding: 10px;
+      border-radius: 10px;
+      height: fit-content;
+      border: 1px solid #1976d2;
+      
+     
+    }
+    .text h3{
+      font-size: 25px;
+      font-family: Courier, monospace;
+      
+    }
+    .ebag{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 90%;
+      margin: auto;
+    }
+    .edubox{
+      display: grid;
+   
+      grid-template-columns: repeat(1,1fr);
+      gap: 30px;
+      width: 80%;
+      margin: auto;
+      
+     padding: 20px;
+      
+    }
+  
+  
+    .edubox>div{
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+      display: flex;
+      text-align: left;
+      width: 90%;
+      padding: 7px;
+      border-radius: 10px;
+      align-items: center;
+      
+      margin: auto;
+    
+    }
+    span{
+      color: #1976d2;
+    }
+    .edubox img{
+         width: 90px;
+         height: 90px;
+         border-radius: 100%;
+        
+    }
+    .ebox{
+        margin-left: 20px;
+        font-size: 15px;
+        font-weight:500;
+        
+    }
+    .ebox h2{
+      font-weight: 500;
+    }
+  
+    .eimg{
+      width: 40%;
+      height: 400px;
+      margin: auto;
+      border-radius: 10px;
+      
+    }
+   
+  .linediv{
+     
+      
+      width: 90%;
+      margin: auto;
+      
+      display: flex;
+      justify-content: space-between;
+      height: auto;
+      align-items:flex-end;
+      margin-top: 60px;
+    
+  
+  
+  }
+  #contact>.linediv{
+    margin-top: 0px;
+  }
+  .d {
+      width: 5px;
+      height: 5px;
+      background-color: #1976d2;
+      border-radius: 100%;
+      margin: 10px;
+  }
+   
+  .d3{
+      width:95%;
+      height: 3px;
+      background-color: #1976d2;
+      border-radius: 10px;
+      margin: 10px;
+      
+  }
+  #draw{
+      color: #1976d2;
+  }
+  #draw a{
+      color: #1976d2;
+  }
+   .cbag{
+      display: flex;
+      width: 90%;
+      justify-content: space-evenly;
+      margin: auto;
+   }
+   
+   form{
+       width: 60%;
+      margin: auto;
+     
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      padding: 10px;
+      border-radius: 5px;
+      align-items: center;
+      
+   }
+   .footericone{
+    
+     width: 100%; 
+     
+    color: #1976d2;
+   
+   margin-top: 100px;
+    
+   }
+   .footericone a{
+    color: #1976d2;
+    margin: 10px;
+   }
+  
+   input{
+      width: 90%;
+      height: 40px;
+      
+      margin-top: 20px;
+      border-radius: 5px;
+      font-size: 18px;
+      border: none;
+    
+      border: 1px solid #1976d2;
+      background-color: transparent;
+   }
+   .mbox{
+    width: 90%;
+    height: 130px;
+    
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+   
+    border: 1px solid #1976d2;
+    background-color: transparent;
+  
+   }
+   .ibtn{
+      
+      height: fit-content;
+    
+      background-color: #1976d2;
+      color: white;
+      font-size: 20px;
+      padding: 10px 20px;
+      
+      margin: auto;
+      width: auto;
+      margin-top: 20px;
+   }
+   
+   .cbag img{
+      height: 400px;
+      width:40% ;
+      
+      margin: auto;
+     
+  
+   }
+   
+ 
+  
+   .wave {
+      animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+      animation-duration: 2.5s;        /* Change to speed up or slow down */
+      animation-iteration-count: infinite;  /* Never stop waving :) */
+      transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+      display: inline-block;
+      font-size: 50px;
+      
+     
+    }
+    @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+  
+  .project-div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+     gap:30px;
+     width: 90%;
+     margin: auto;
+     
+  }
+ 
+ 
+  
+  
+ 
+  .project-div p{
+    font-size: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .tool{
+  font-weight: 500;
+  color:tomato;
+  
+ }
+  
+ 
+ 
+  
+  /* -------------------------------------------- */
+   
+   
+  
+  @media (max-width: 950px) {
+    .tt{
+      font-size: 18px;
+      
+    }
+    .primary_text{
+      font-size: 20px;
+    }
+    .highlight_text{
+      font-size: 20px;
+    }
+    .intro{
+     
+      font-size: 15px;
+      line-height: 20px;
+      width: 90%;
+      
+      
+    }
+  
+    .project-div{
+      
+      grid-template-columns: repeat(3,1fr);
+      
+    }
+  
+    
+    a{
+     
+      font-size: 17px;
+     
+    }
+  
+    .profile{
+      width: 80%;
+    }
     .profile img{
       width: 250px;
       height:300px ;
       border-radius: 20%;
-   
      
-
-  }
-  a{
-   
-    font-size: 14px;
-  }
-
-}
-
-@media (max-width: 490px){
-  .tt{
-    font-size: 16px;
-    
-  }
-  .primary_text{
-    font-size: 18px;
-  }
-  .highlight_text{
-    font-size: 18px;
-  }
- 
-  .project-div{
-    
-    grid-template-columns: repeat(1,1fr);
-    width: 70%;
-    
-     
-  }
-  .nleft{
-  
-    width: 100%;
-    margin: auto;
-  }
-  .nright{
-  
-    width: 100%;
-    margin: auto;
-    margin-top: 20px;
-  }
-
-.d {
-    
-    margin: 5px;
-}
- 
-.d3{
-    width:90%;
-    
-    margin: 5px;
-    
-}
-   section{
-    min-height: fit-content;
-   }
-  .project-div p{
-    font-size: 10px;
-  }
-  
-  .project-div>div{
-    
-    height: auto;
-  
+      
   
   }
+  .eimg{
+    display: none;
+  }
+  
   .edubox{
-    
-    gap: 10px;
+     
+    gap: 30px;
     width: 90%;
-    
+     
   }
- 
- 
-  .ebox{
    
-    font-size: 8px;
-    
-   }
-
-   .clink{
-    width:80%;
-     
-    text-align: center;
-    font-size: 10px;
-    margin: auto;
-    
- }
- .clink a{
-     
-     font-size: 10px;
-     margin-top: 20px;
- }
- .text h3{
-  font-size: 16px;
-}
-
-.profile img{
-  width: 230px;
-}
-
-
-}
-
-
-@media (max-width: 400px) {
-  .profile img{
-    width: 200px;
-    height:250px ;
-    border-radius: 20%;
-  }
-    
-
-}
-
-.timg img:nth-child(1){
-   border-radius: 5px;
-   background-color: transparent;
-  border-radius: 1px solid red;
-}
+   
+  
  
+ 
+    
+  }
+  
+  @media (max-width: 768px) {
+    .icone{
+      position: absolute;
+      display: grid;
+      width: fit-content;
+      gap:5px;
+      top:40%;
+      left: 0;
+      margin-left: 20px;
+   
+   
+  
+      
+    }
+    .icone a{
+      color: #1976d2;
+      font-size: large;
+     
+    }
+    .intro{
+     
+      font-size: 12px;
+      width: 80%;
+    }
+    .profile{
+      display: grid;
+     padding-top: 0;
+     align-items: center;
+     padding-top: 20px;
+     
+      
+     }
+     #home{
+      height: fit-content;
+   
+     }
+  
+   .d {
+      
+      margin: 5px;
+  }
+   
+  .d3{
+      width:90%;
+      
+      margin: 5px;
+      
+  }
+     section{
+      min-height: fit-content;
+     }
+     
+     .linkdin {
+      position: absolute;
+       top:65px;
+       display: flex;
+       justify-content: space-between;
+       width: 100%;
+       margin: auto;
+       
+       }
+       .nright{
+          margin-top: 20px;
+       }
+       .nright h2{
+          font-size: 18px;
+       }
+       .nright h1{
+           font-size: 20px;
+          
+       }
+         
+       .abag{
+          display:block;
+
+          align-items: center;
+          
+        }
+        .aimg{
+           display: none;
+        }
+        .text{
+        
+          text-align: justify;
+          width: 80%;
+          padding: 7px;
+          border-radius: 10px;
+          height: fit-content;
+          margin: auto;
+          margin-top: 10px;
+          
+         
+        }
+        .text h3{
+          font-size: 20px;
+        }
+  
+        .edubox{
+          display: grid;
+       
+          grid-template-columns: repeat(1,1fr);
+          gap: 30px;
+          width: 80%;
+          margin: auto;
+         
+          
+        }
+        .eimg{
+          display: none;
+        }
+     
+        .edubox img{
+          width: 70px;
+          height: 70px;
+          border-radius: 100%;
+         
+     }
+     .ebox{
+         margin-left: 20px;
+         font: 10px sans-serif;
+     }
+  
+     section h1{
+       
+      font-size: 25px;
+  }
+   
+  
+  
+    form{
+      
+      width: 70%;
+      
+    }
+   input{
+     
+      height: 30px;
+      margin-top: 15px;
+      border-radius: 4px;
+      font-size: 15px;
+      border: none;
+      width: 91%;
+      padding-left:10px ;
+      border: 1px solid #1976d2;
+   }
+   .mbox{
+      height: 70px;
+      width: 92%;
+      margin-top: 15px;
+      border: 1px solid #1976d2;
+   }
+   .ibtn{
+       
+      font-size: 15px;
+     
+      padding: 7px 12px;
+       
+   }
+   .clink{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+      width: 70%;
+       gap: 7px;
+      font-size: 13px;
+   
+      align-items: center;
+      text-align: justify;
+     margin: auto;
+     border: 1px solid;
+      
+   
+      
+   }
+   .clink a{
+       color: #1976d2;
+       
+       font-size: 13px;
+       margin-top: 20px;
+   }
+  
+   .slide{
+      height: 130px;
+      width: 100px;
+  
+   }
+   .slide img{
+      width: 70px;
+      height: 70px;
+   }
+  
+   .slide h3{
+     
+      font-size: 15px;
+      margin-top: 1rem;
+      }
+  
+      section h1{
+          font-size: 20px;
+      }
+  
+      .project-div{
+      
+        grid-template-columns: repeat(2,1fr);
+        
+          
+      }
+      
+  
+      .nleft{
+      
+        width: 100%;
+        margin: auto;
+        
+      }
+      .nright{
+        
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+       
+      }
+  
+      .profile img{
+        width: 250px;
+        height:300px ;
+        border-radius: 20%;
+     
+       
+  
+    }
+    a{
+     
+      font-size: 14px;
+    }
+  
+  }
+  
+  @media (max-width: 490px){
+    .tt{
+      font-size: 16px;
+      
+    }
+    .primary_text{
+      font-size: 18px;
+    }
+    .highlight_text{
+      font-size: 18px;
+    }
+   
+    .project-div{
+      
+      grid-template-columns: repeat(1,1fr);
+      
+      
+       
+    }
+    .nleft{
+    
+      width: 100%;
+      margin: auto;
+    }
+    .nright{
+    
+      width: 100%;
+      margin: auto;
+      margin-top: 20px;
+    }
+  
+  .d {
+      
+      margin: 5px;
+  }
+   
+  .d3{
+      width:90%;
+      
+      margin: 5px;
+      
+  }
+     section{
+      min-height: fit-content;
+     }
+    .project-div p{
+      font-size: 10px;
+    }
+    
+    .project-div>div{
+      
+      height: auto;
+    
+    
+    }
+    .edubox{
+      
+      gap: 10px;
+      width: 90%;
+      
+    }
+   
+   
+    .ebox{
+     
+      font-size: 8px;
+      
+     }
+  
+     .clink{
+      width:80%;
+       
+      text-align: center;
+      font-size: 10px;
+      margin: auto;
+      
+   }
+   .clink a{
+       
+       font-size: 10px;
+       margin-top: 20px;
+   }
+   .text h3{
+    font-size: 16px;
+  }
+  
+  .profile img{
+    width: 230px;
+  }
+  
+  
+  }
+  
+  
+  @media (max-width: 400px) {
+    .profile img{
+      width: 200px;
+      height:250px ;
+      border-radius: 20%;
+    }
+      
+  
+  }
+  
+  .timg img:nth-child(1){
+     border-radius: 5px;
+     background-color: transparent;
+    border-radius: 1px solid red;
+  }
+   

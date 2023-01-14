@@ -3,7 +3,7 @@ import "./git.css";
 export const Tool = () => {
   return (
     <>
-      <div className="gtitle">Tools</div>
+      <div className="gtitle"><span>Tools</span></div>
       <div className="divtool">
         <span>
           <img

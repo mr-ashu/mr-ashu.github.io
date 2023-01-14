@@ -8,18 +8,29 @@
 }
 
 .gtitle {
-  padding: 5px 10px;
-  color: #1976d2;
-  width: fit-content;
   margin: auto;
-  height: fit-content;
-  border-radius: 5px;
-  border: 1px solid;
-  font-weight: 500;
+  width: 80%;
+  
+  font-weight: bold;
   margin-top: 60px;
   text-transform: uppercase;
+  text-align: left;
 }
+.gtitle>span{
+  border-bottom: 2px dotted;
+}
+.gtitle2>span{
+  border-bottom: 2px dotted;
+}
+.gtitle2 {
+  margin: auto;
+  width: 100%;
 
+  font-weight: bold;
+  margin-top: 60px;
+  text-transform: uppercase;
+  text-align: right;
+}
 .gitstaus {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -73,7 +84,6 @@
 
   .git_calender .react-activity-calendar__legend-colors {
     font-size: 8px;
-    
   }
   .git_calender .react-activity-calendar__legend-colors > svg {
     width: 50%;
@@ -98,7 +108,6 @@
     text-align: center;
     margin-top: 30px;
   }
-
 
   .git_calender {
     padding-top: 10px;

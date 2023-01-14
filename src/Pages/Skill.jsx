@@ -1,7 +1,7 @@
 import React from 'react'
 import GitCalender from './gitStatus'
 import { Slider } from './slider'
-import "../components/navbar.css"
+ import "../components/Navbar.css"
 import Fade from "react-reveal/Fade";
 import { Tool } from './Tool';
 export const Skill = () => {
