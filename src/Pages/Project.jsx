@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 export const Project = () => {
   return (
     <>
-    <Fade> 
+  
       <section id="project">
             <h1>Project</h1>
             <div className="project-box">
@@ -20,8 +20,7 @@ export const Project = () => {
             <div className="d"></div>
           </div>
           </section>
-
-      </Fade>
+ 
     
     </>
   )

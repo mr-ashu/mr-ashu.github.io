@@ -61,7 +61,7 @@ export const Home = () => {
                 <a href="https://drive.google.com/file/d/1XohgQJK_rldJSeH9E1thIxe7eIh-wUm1/view?usp=share_link" target="_blank"><DownloadIcon/></a>
               </Button>
               <Button _hover={{bg:"teal"}}>
-                <a href="callto:8825180626" target="_blank"><CallIcon/></a>
+                <a href="tel:8825180626" target="_blank"><CallIcon/></a>
               </Button>
             </div>
           </div>

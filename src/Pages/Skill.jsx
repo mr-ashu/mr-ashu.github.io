@@ -7,7 +7,7 @@ import { Tool } from './Tool';
 export const Skill = () => {
   return (
     <>
-    <Fade bottom > 
+    
          <section id="skill">
             <h1>Skill</h1>
           
@@ -28,7 +28,7 @@ export const Skill = () => {
             </div>
           </section>
 
-      </Fade>
+      
     </>
   )
 }

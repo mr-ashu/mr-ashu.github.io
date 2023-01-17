@@ -1,11 +1,11 @@
 import React from "react";
-import "../components/Navbar.css"
+import "../components/Navbar.css";
 import Fade from "react-reveal/Fade";
 
 export const Education = () => {
   return (
     <>
-      <Fade>
+  
         <section id="education">
           <h1>Education</h1>
           <div className="ebag">
@@ -90,7 +90,7 @@ export const Education = () => {
             <div className="d"></div>
           </div>
         </section>
-      </Fade>
+     
     </>
   );
 };

@@ -10,7 +10,7 @@ export const Tool = () => {
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3znC2phPtraIt6OG2Ej8QRb515gFyhK8H5yDgg37KcKLTlKGAbclzKOnF_0W7Y5p-DtY&usqp=CAU"
             alt=""
           />
-          <h3>POSRMAN</h3>
+          <h3>POSTMAN</h3>
         </span>
         <span>
           {" "}

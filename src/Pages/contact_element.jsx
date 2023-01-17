@@ -20,7 +20,10 @@ import {
   SimpleGrid,
   Grid,
   Image,
+  Toast,
+  useToast,
 } from "@chakra-ui/react";
+ 
 import {
   MdPhone,
   MdEmail,
@@ -35,8 +38,39 @@ import {
   BsFacebook,
   BsLinkedin,
 } from "react-icons/bs";
-
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { FormGroup } from "@mui/material";
 export default function Contactelement() {
+   const tost =useToast()
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_c8e685a', 'template_wrzp4tp', form.current, 'ZmdJbHototUngJG7O')
+      .then((result) => {
+          console.log(result.text);
+        tost({
+          title: 'Message send sucessfully.',
+         
+          status: 'success',
+          duration: 4000,
+          isClosable: true,
+          position: 'top',
+        })
+      }, (error) => {
+          console.log(error.text);
+          tost({
+            title: 'Something wrong',
+           
+            status: 'error',
+            duration: 4000,
+            isClosable: true,
+            position: 'top',
+          })
+      });
+  };
   return (
     <SimpleGrid
       columns={{ base: 1, sm: 1, md: 2, lg: 2 }}
@@ -50,28 +84,28 @@ export default function Contactelement() {
     >
       <Box   borderRadius="lg">
         <Box m={8}  >
-          <VStack spacing={5}>
-            <FormControl id="name">
+          <form onSubmit={sendEmail} style={{width:"100%",boxShadow:"none"}}  ref={form}>
+         
               <FormLabel>Your Name</FormLabel>
               <InputGroup borderColor="#E0E1E7">
                 <InputLeftElement
                   pointerEvents="none"
                   children={<BsPerson color="gray.800" />}
                 />
-                <Input type="text" size="md" />
+                <Input type="text" size="md" name="user_name" />
               </InputGroup>
-            </FormControl>
-            <FormControl id="name">
+            
+          
               <FormLabel>Mail</FormLabel>
               <InputGroup borderColor="#E0E1E7">
                 <InputLeftElement
                   pointerEvents="none"
                   children={<MdOutlineEmail color="gray.800" />}
                 />
-                <Input type="text" size="md" />
+                <Input type="text" size="md" name="user_email" />
               </InputGroup>
-            </FormControl>
-            <FormControl id="name">
+          
+            
               <FormLabel>Message</FormLabel>
               <Textarea
                 borderColor="gray.300"
@@ -79,20 +113,21 @@ export default function Contactelement() {
                   borderRadius: "gray.300",
                 }}
                 placeholder="message"
+                name="message"
               />
-            </FormControl>
-            <FormControl id="name" float="right">
-              <Button variant="solid" bg="#0D74FF" color="white" _hover={{}}>
-                Send Message
-              </Button>
-            </FormControl>
-          </VStack>
+         
+            
+              <Input marginTop="15px" w="fit-content" value=" Send Message"  variant="solid" bg="#0D74FF" color="white" _hover={{cursor:"pointer",bg:"teal"}} type={"submit"}/>
+               
+              
+         
+          </form>
         </Box>
       </Box>
 
-      <Box  alignSelf="baseline" marginTop="0%" >
-        <Grid >
-            <a href="callto:8825180626" target="_blank">
+      <Box  alignItems="center" justifyContent="center" >
+        <Grid gap="15px" alignItems="center" justifyContent="center">
+            <a href="tel:8825180626" target="_blank">
             <Button
               size="md"
            
@@ -128,7 +163,7 @@ export default function Contactelement() {
        
         </Grid>
 
-        <Image margin="auto" marginTop="30px" src="https://o.remove.bg/downloads/601dcffd-aa83-4e56-a00d-7437e81ce126/png-clipart-graphy-contact-miscellaneous-text-removebg-preview.png"/>
+        <Image margin="auto" marginTop="30px" src="https://i.ibb.co/RvjwTnT/105-1052182-call-us-contact-us-images-png-removebg-preview.png"/>
         <Flex justifyContent="center"  >
          <a href="https://www.facebook.com/mr.ashutosh22/" target="_blank">
           <IconButton

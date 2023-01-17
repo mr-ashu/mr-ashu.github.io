@@ -129,7 +129,7 @@
      }
      
     .profile img{
-        width: 400px;
+        width: 450px;
         height:450px ;
         border-radius: 20%;
         margin: auto;
@@ -463,7 +463,7 @@
    
    
   
-  @media (max-width: 950px) {
+  @media (max-width: 1050px) {
     .tt{
       font-size: 18px;
       
@@ -481,6 +481,9 @@
       width: 90%;
       
       
+    }
+    .aimg{
+      display: block;
     }
   
     .project-div{
@@ -500,7 +503,7 @@
       width: 80%;
     }
     .profile img{
-      width: 250px;
+      width: 300px;
       height:300px ;
       border-radius: 20%;
      
@@ -508,7 +511,7 @@
   
   }
   .eimg{
-    display: none;
+    display: block;
   }
   
   .edubox{
@@ -627,7 +630,7 @@
        
           grid-template-columns: repeat(1,1fr);
           gap: 30px;
-          width: 80%;
+          width: 100%;
           margin: auto;
          
           
@@ -748,7 +751,7 @@
       }
   
       .profile img{
-        width: 250px;
+        width: 300px;
         height:300px ;
         border-radius: 20%;
      
@@ -777,7 +780,7 @@
     .project-div{
       
       grid-template-columns: repeat(1,1fr);
-      
+      width: 80%;
       
        
     }
@@ -849,7 +852,8 @@
   }
   
   .profile img{
-    width: 230px;
+    width: 250px;
+    height: 250px;
   }
   
   
@@ -858,8 +862,8 @@
   
   @media (max-width: 400px) {
     .profile img{
-      width: 200px;
-      height:250px ;
+      width: 220px;
+      height:220px ;
       border-radius: 20%;
     }
       

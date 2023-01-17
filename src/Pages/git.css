@@ -60,15 +60,18 @@
   margin: auto;
   margin-top: 30px;
 }
+.divtool>h3{
+  margin-top: 7px;
+}
 .divtool span {
   height: fit-content;
-
+  margin-top: 0px;
   font-weight: bold;
   text-transform: uppercase;
 }
 .divtool > span > img {
-  width: 100%;
-  height: 100px;
+  width: 90%;
+  height: 70px;
   margin: auto;
 
   border-radius: 15px;

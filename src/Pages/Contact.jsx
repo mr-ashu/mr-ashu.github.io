@@ -18,7 +18,7 @@ import {
 export const Contact = () => {
   return (
     <>
-    
+  
       <section id="contact">
         
       <h1 marginBottom="15px">Contact</h1>
@@ -49,7 +49,7 @@ export const Contact = () => {
       </div>
        
       </section>
-      
+    
     </>
   );
 };
